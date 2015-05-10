@@ -1,2 +1,2 @@
 # .vimrc
-This is .vimrc file (OSX)
+This is my .vimrc file for vim. (OSX)
