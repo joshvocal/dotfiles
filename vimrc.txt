@@ -1,0 +1,13 @@
+filetype on
+syntax on
+set autoindent
+set cindent
+set background=dark
+set number
+set ruler
+set hlsearch
+set shiftwidth=2
+set tabstop=2
+set noswapfile
+set laststatus=2
+inoremap jj <Esc>  
