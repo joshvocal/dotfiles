@@ -6,8 +6,14 @@ set background=dark
 set number
 set ruler
 set hlsearch
-set shiftwidth=2
-set tabstop=2
+" changes the indents to 4 spaces
+set shiftwidth=4
+set tabstop=4
 set noswapfile
 set laststatus=2
+" changes tabs to spaces
+set expandtab
+" shortcut for Esc is mapped to jj
 inoremap jj <Esc>  
+" run python by pression F5
+nnoremap <silent> <F5> :!clear;python %<CR>
