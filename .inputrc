@@ -1,1 +1,2 @@
+"Allows you to press TAB to auto complete ignoring case-sensetive files
 set completion-ignore-case on
