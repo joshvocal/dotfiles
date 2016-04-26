@@ -1,2 +1,2 @@
-# .vimrc
-This is my .vimrc file for vim. (OSX)
+# dotfiles
+These are my dotfiles to make life easier.
