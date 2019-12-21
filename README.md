@@ -7,5 +7,11 @@ These are my dotfiles to make life easier.
 xargs brew install < my_brew
 ```
 
+## Cask
+```
+xargs brew cask install < cask
+```
+
+
 
 
