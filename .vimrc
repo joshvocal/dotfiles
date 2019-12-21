@@ -28,10 +28,13 @@ set visualbell "don't beep
 set noerrorbells "don't beep
 
 "Shortcuts
+
 "Remap 'jj' to <Esc>
 inoremap jj <Esc>
-"Run python by pressing F5
-nnoremap <silent> <F5> :!clear;python %<CR>
+
 "I don't have to press shift for ':'
 nnoremap ; :
 nnoremap <leader>; ;
+
+"In vim, pressing ff runs the python script"
+map ff:w<CR>:!clear;python3 %<CR>
