@@ -38,12 +38,4 @@ brew cask list > cask
 ## TODO
 
 - [ ] Add symbolic links so no copy pasting in necessary
-
-
-
-
-
-
-
-
-
+- [ ] Add pacman/apt-get for Linux
