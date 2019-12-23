@@ -32,8 +32,12 @@ brew leaves > my_brew
 ### Cask
 
 ```
-brew cask > cask
+brew cask list > cask
 ```
+
+## TODO
+
+- [ ] Add symbolic links so no copy pasting in necessary
 
 
 
