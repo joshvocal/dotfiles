@@ -1,11 +1,13 @@
 apache-spark
 automake
+bash
 cocoapods
 coreutils
 dart-lang/dart/dart
 dartsim
 docker
 docker-compose
+htop
 ideviceinstaller
 imagemagick
 ios-deploy
