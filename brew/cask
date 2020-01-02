@@ -1,4 +1,5 @@
 adoptopenjdk8
+android-file-transfer
 android-studio
 brave-browser
 db-browser-for-sqlite
@@ -12,6 +13,7 @@ keepassxc
 postman
 pycharm-ce
 qbittorrent
+riot
 rstudio
 slack
 spectacle
