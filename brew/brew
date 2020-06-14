@@ -1,12 +1,18 @@
+ant
 apache-spark
 automake
 bash
 cocoapods
+colordiff
 coreutils
 dart-lang/dart/dart
 dartsim
 docker
 docker-compose
+dos2unix
+ghostscript
+gradle
+graphviz
 htop
 ideviceinstaller
 imagemagick
@@ -16,6 +22,7 @@ libksba
 nvm
 pandoc
 postgresql
+protobuf
 rbenv
 ruby
 tmux
