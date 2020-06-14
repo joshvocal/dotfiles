@@ -10,7 +10,7 @@ Let's install Homebrew first we can get all of our packages!
 Install all of our command-line applications
 
 ```
-xargs brew install < my_brew
+xargs brew install < brew
 ```
 
 ## Cask
@@ -26,7 +26,7 @@ xargs brew cask install < cask
 ### Brew
 
 ```
-brew leaves > my_brew
+brew leaves > brew
 ```
 
 ### Cask
