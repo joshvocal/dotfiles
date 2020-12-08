@@ -32,7 +32,7 @@ brew leaves > brew
 ### Cask
 
 ```
-brew cask list > cask
+brew list --cask > cask
 ```
 
 ## TODO
