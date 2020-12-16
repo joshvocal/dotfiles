@@ -35,6 +35,8 @@ colors:
 env:
   TERM: xterm-256color
 
+scrolling:
+  history: 10000
 
 window:
   padding:
@@ -46,13 +48,13 @@ window:
 font:
   size: 14
   normal:
-    family: Monaco
+    family: JetBrains Mono
 
   bold:
-    family: Monaco
+    family: JetBrains Mono
 
   italic:
-    family: Monaco
+    family: JetBrains Mono
 
   use_thin_strokes: true
 
