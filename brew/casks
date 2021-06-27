@@ -11,10 +11,13 @@ chromium
 db-browser-for-sqlite
 discord
 docker
+dotnet-sdk
 firefox
 font-jetbrains-mono
 github
+goland
 google-chrome
+handbrake
 intellij-idea-ce
 keepassxc
 mactex
@@ -23,6 +26,7 @@ postman
 pycharm-ce
 rectangle
 rstudio
+skype
 slack
 soundflower
 spotify
@@ -30,5 +34,6 @@ virtualbox
 visual-studio-code
 vlc
 vysor
+webstorm
 wine-stable
 xquartz
