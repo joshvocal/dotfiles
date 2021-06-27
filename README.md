@@ -1,16 +1,14 @@
 # dotfiles
-These are my dotfiles to make life easier.
 
+My personalized tools
 
-## [Install Homebrew](https://brew.sh)
-
-Let's install Homebrew first we can get all of our packages!
+[Install Homebrew](https://brew.sh)
 
 ## Brew
 Install all of our command-line applications
 
 ```
-xargs brew install < brew
+xargs brew install < leaves
 ```
 
 ## Cask
@@ -18,21 +16,13 @@ xargs brew install < brew
 Install all of our graphical applications
 
 ```
-xargs brew cask install < cask
+xargs brew install --cask < casks
 ```
 
 ## Updating Brew/Cask List
 
-### Brew
-
 ```
-brew leaves > brew
-```
-
-### Cask
-
-```
-brew list --cask > cask
+./dump.sh
 ```
 
 ## TODO
