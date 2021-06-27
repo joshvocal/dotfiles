@@ -6,6 +6,7 @@ set showmode "show what mode you're currently editing in
 set autoindent "always set autoindenting on
 set cindent "indents for programing in c
 set number "allows number lines
+set norelativenumber
 set ruler
 set hlsearch 
 set shiftwidth=4
@@ -38,3 +39,4 @@ nnoremap <leader>; ;
 
 "In vim, pressing ff runs the python script"
 map ff:w<CR>:!clear;python3 %<CR>
+
