@@ -37,6 +37,8 @@ protobuf
 python@3.7
 rbenv
 scrcpy
+starship
+stow
 tmux
 tree
 vim

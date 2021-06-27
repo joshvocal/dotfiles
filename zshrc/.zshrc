@@ -22,6 +22,9 @@ alias gsu="git stash --include-untracked"
 alias gsp="git stash pop"
 alias gl="git log"
 
+# Vim
+alias vim="nvim"
+
 # Dotfiles
 alias zedit='vim ~/.zshrc && source ~/.zshrc'
 alias bupdate="brew cleanup && brew update && brew upgrade"
