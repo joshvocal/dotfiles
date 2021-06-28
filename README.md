@@ -2,6 +2,10 @@
 
 My personalized tools managed with [GNU Stow](https://www.gnu.org/software/stow/)
 
+<div align="center">
+  <img src="https://github.com/joshvocal/dotfiles/blob/master/preview.png" width=600>
+</div>
+
 ## Requirements
 
 * [Install Homebrew](https://brew.sh)
