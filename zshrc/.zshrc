@@ -1,6 +1,7 @@
 # Terminal
 alias ls='ls -G'
-alias lsa='ls -la -G'
+alias ll='ls -l -G'
+alias lla='ls -la -G'
 alias h='history'
 alias ..='cd ..'
 
