@@ -29,7 +29,7 @@ alias vim="nvim"
 
 # Dotfiles
 alias zedit='vim ~/.zshrc && source ~/.zshrc'
-alias bupdate="brew cleanup && brew update && brew upgrade"
+alias bupdate="brew update && brew upgrade && brew cleanup"
 
 # Mobile Dev
 alias sim='open -a Simulator'
