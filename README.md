@@ -55,3 +55,7 @@ xargs brew install --cask < casks
 ```
 ./dump.sh
 ```
+
+### Future
+
+* Look into [Nix](https://github.com/NixOS/nix) as a replacement to brew
