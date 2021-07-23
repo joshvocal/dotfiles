@@ -24,9 +24,6 @@ alias gsu="git stash --include-untracked"
 alias gsp="git stash pop"
 alias gl="git log"
 
-# Vim
-alias vim="nvim"
-
 # Dotfiles
 alias zedit='vim ~/.zshrc && source ~/.zshrc'
 alias bupdate="brew update && brew upgrade && brew cleanup"
@@ -34,6 +31,15 @@ alias bupdate="brew update && brew upgrade && brew cleanup"
 # Mobile Dev
 alias sim='open -a Simulator'
 alias emu='scrcpy'
+
+[ -f /opt/dev/dev.sh ] && source /opt/dev/dev.sh
+if [ -e /Users/joshvocal/.nix-profile/etc/profile.d/nix.sh ]; then . /Users/joshvocal/.nix-profile/etc/profile.d/nix.sh; fi # added by Nix installer
+
+# The next line updates PATH for the Google Cloud SDK.
+if [ -f '/Users/joshvocal/Downloads/google-cloud-sdk/path.zsh.inc' ]; then . '/Users/joshvocal/Downloads/google-cloud-sdk/path.zsh.inc'; fi
+
+# The next line enables shell command completion for gcloud.
+if [ -f '/Users/joshvocal/Downloads/google-cloud-sdk/completion.zsh.inc' ]; then . '/Users/joshvocal/Downloads/google-cloud-sdk/completion.zsh.inc'; fi
 
 eval "$(starship init zsh)"
 
