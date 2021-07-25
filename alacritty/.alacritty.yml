@@ -53,7 +53,7 @@ window:
 # Fonts
 
 font:
-  size: 14
+  size: 13
   normal:
     family: JetBrains Mono
 
@@ -67,4 +67,4 @@ font:
 
   offset:
     x: 1
-    y: 3
+    y: 4
