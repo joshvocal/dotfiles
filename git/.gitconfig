@@ -10,3 +10,5 @@
     rebase = true
 [diff]
     algorithm = patience
+[core]
+	excludesfile = .gitignore_global
