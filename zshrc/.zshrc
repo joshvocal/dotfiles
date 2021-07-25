@@ -4,6 +4,7 @@ alias ll='ls -l -G'
 alias lla='ls -la -G'
 alias h='history'
 alias ..='cd ..'
+alias ...='cd ../..'
 
 # Python
 alias pip="pip3"
