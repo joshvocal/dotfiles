@@ -39,7 +39,7 @@ stow [foo] [bar]
 Install all of our command-line applications
 
 ```
-xargs brew install < leaves
+xargs brew install < brew_leaves
 ```
 
 ## Cask
@@ -47,7 +47,7 @@ xargs brew install < leaves
 Install all of our graphical applications
 
 ```
-xargs brew install --cask < casks
+xargs brew install --cask < brew_casks
 ```
 
 ## Updating Brew/Cask List
