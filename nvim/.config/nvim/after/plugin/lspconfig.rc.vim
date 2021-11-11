@@ -41,5 +41,9 @@ nvim_lsp.pyright.setup {
     on_attach=require'completion'.on_attach
 }
 
+nvim_lsp.kotlin_language_server.setup {
+    on_attach=require'completion'.on_attach
+}
+
 EOF
 

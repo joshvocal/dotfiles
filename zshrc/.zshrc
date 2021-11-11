@@ -10,6 +10,7 @@ alias ...='cd ../..'
 alias pip="pip3"
 alias python="/usr/local/bin/python3"
 alias ptest="python3 -m 'nose'"
+alias p="python"
 
 # Git
 alias gv="gh repo view --web"
