@@ -15,6 +15,9 @@ vim.keymap.set({'n', 'x'}, 'cp', '"+y')
 -- Paste from clipboard
 vim.keymap.set({'n', 'x'}, 'cv', '"+p')
 
+-- Clear search highlighting with <leader> and c
+map('n', '<leader>c', ':nohl<CR>', opts)
+
 -- Reload configuration without restart nvim
 map('n', '<leader>r', ':so %<CR>', opts)
 
