@@ -1,3 +1,8 @@
+local lsp_status_ok, lspconfig = pcall(require, 'lspconfig')
+if not lsp_status_ok then
+  return
+end
+
 -- Mappings.
 -- See `:help vim.diagnostic.*` for documentation on any of the below functions
 local opts = { noremap=true, silent=true }
@@ -37,13 +42,15 @@ local lsp_flags = {
   debounce_text_changes = 150,
 }
 
-require('lspconfig')['pyright'].setup{
-    on_attach = on_attach,
-    flags = lsp_flags,
+local servers = {
+    'pyright',
+    'tsserver'
 }
 
-require('lspconfig')['tsserver'].setup{
-    on_attach = on_attach,
-    flags = lsp_flags,
-}
+for _, lsp in ipairs(servers) do
+    lspconfig[lsp].setup {
+        on_attach = on_attach,
+        flags = lsp_flags
+    }
+end
 
