@@ -53,7 +53,7 @@ xargs brew install --cask < brew_casks
 ## Updating Brew/Cask List
 
 ```
-./dump.sh
+./brew_dump.sh
 ```
 
 ### Future
