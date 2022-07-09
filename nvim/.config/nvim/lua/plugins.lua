@@ -22,4 +22,22 @@ return require('packer').startup(function()
   -- Darcula colorscheme
   use 'Mofiqul/dracula.nvim'
 
+  -- File tree
+  use 'kyazdani42/nvim-tree.lua'
+
+  -- Language Server
+  use 'neovim/nvim-lspconfig'
+
+  -- Autcomplete
+  use {
+      'hrsh7th/nvim-cmp',
+      requires = {
+          'neovim/nvim-lspconfig',
+          'hrsh7th/cmp-nvim-lsp',
+          'hrsh7th/cmp-buffer',
+          'hrsh7th/cmp-path',
+          'hrsh7th/nvim-cmp',
+      }
+  }
+
 end)
