@@ -8,7 +8,6 @@ opt.swapfile = false -- Don't use swapfile
 opt.backup = false -- No backup
 
 -- Neovim UI
-opt.termguicolors = true
 opt.number = true -- Show line number
 opt.showmatch = true -- Highlight matching parenthesis
 opt.ignorecase = true -- Ignore case letters when search
