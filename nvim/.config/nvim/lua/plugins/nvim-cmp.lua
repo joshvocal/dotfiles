@@ -25,7 +25,7 @@ cmp.setup {
 
 -- Completion settings
   completion = {
-    --completeopt = 'menu,menuone,noselect'
+    completeopt = 'menu,menuone,noselect',
     keyword_length = 2
   },
 
