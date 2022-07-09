@@ -2,6 +2,7 @@
 
 -- Only required if you have packer configured as `opt`
 vim.cmd [[packadd packer.nvim]]
+vim.cmd [[colorscheme dracula]]
 
 return require('packer').startup(function()
   -- Packer can manage itself
@@ -15,5 +16,7 @@ return require('packer').startup(function()
   }
 
   use 'nvim-treesitter/nvim-treesitter'
+
+  use 'Mofiqul/dracula.nvim'
 
 end)

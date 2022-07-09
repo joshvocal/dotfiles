@@ -1,3 +1,4 @@
+require('colors')
 require('plugins')
 require('keymaps')
 require('options')

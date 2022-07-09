@@ -69,6 +69,11 @@ end
 time([[try_loadstring definition]], false)
 time([[Defining packer_plugins]], true)
 _G.packer_plugins = {
+  ["dracula.nvim"] = {
+    loaded = true,
+    path = "/Users/jvocal/.local/share/nvim/site/pack/packer/start/dracula.nvim",
+    url = "https://github.com/Mofiqul/dracula.nvim"
+  },
   ["nvim-treesitter"] = {
     loaded = true,
     path = "/Users/jvocal/.local/share/nvim/site/pack/packer/start/nvim-treesitter",
