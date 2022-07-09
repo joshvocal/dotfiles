@@ -3,8 +3,8 @@
     aa = add -A
     br = branch
     brs = branch --sort=-committerdate
-    ca = !"git add .; git commit --amend"
-    cane = !"git add .; git commit --amend --no-edit"
+    cam = !"git add .; git commit --amend"
+    camne = !"git add .; git commit --amend --no-edit"
     cm = !"git add .; git commit -m"
     co = checkout
     d = diff
