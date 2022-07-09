@@ -13,6 +13,7 @@ alias ptest="python3 -m 'nose'"
 alias p="python"
 
 # Git
+alias g="git"
 alias gv="gh repo view --web"
 alias gd="git diff"
 alias gb="git branch"
@@ -27,11 +28,12 @@ alias gsp="git stash pop"
 alias gl="git log"
 
 # Vim
-alias vim="nvim"
+alias nv="nvim"
 
 # Dotfiles
+alias zshup='source ~/.zshrc'
 alias zedit='vim ~/.zshrc && source ~/.zshrc'
-alias bupdate="brew update && brew upgrade && brew cleanup"
+alias brewup="brew update && brew upgrade && brew cleanup"
 
 # Mobile Dev
 alias sim='open -a Simulator'
