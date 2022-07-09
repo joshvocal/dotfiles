@@ -31,3 +31,5 @@ vim.g.dracula_transparent_bg = true
 vim.g.dracula_lualine_bg_color = "#44475a"
 -- set italic comment
 vim.g.dracula_italic_comment = true
+
+vim.cmd([[colorscheme dracula]])

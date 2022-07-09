@@ -7,8 +7,8 @@ require('keymaps')
 require('options')
 
 -- Plugins
-require('nvim-treesitter-conf')
-require('nvim-telescope-conf')
-require('nvim-tree-conf')
-require('nvim-lspconfig-conf')
-require('nvim-cmp-conf')
+require('plugins/nvim-treesitter')
+require('plugins/nvim-telescope')
+require('plugins/nvim-tree')
+require('plugins/nvim-lspconfig')
+require('plugins/nvim-cmp')

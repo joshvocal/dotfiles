@@ -6,6 +6,12 @@ vim.g.mapleader = ','
 -- Press jj to ESC
 map('i', 'jj', '<Esc>', opts)
 
+-- Copy to clipboard
+vim.keymap.set({'n', 'x'}, 'cp', '"+y')
+
+-- Paste from clipboard
+vim.keymap.set({'n', 'x'}, 'cv', '"+p')
+
 -- Reload configuration without restart nvim
 map('n', '<leader>r', ':so %<CR>', opts)
 

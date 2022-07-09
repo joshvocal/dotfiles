@@ -16,7 +16,7 @@ opt.smartcase = true -- Ignore lowercase for the whole pattern
 opt.termguicolors = true -- Enable 24-bit RGB colors
 opt.laststatus = 2 -- Set global statusline
 opt.scrolloff = 8 -- Keep 8 lines off the edges of the screen when scrolling
-opt.splitright = false -- Don't split right
+opt.hlsearch = false -- Remove highlight results of the previous search
 
 -- Tabs, Indent
 opt.expandtab = true -- Use spaces instead of tabs
