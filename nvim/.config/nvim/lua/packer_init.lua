@@ -4,10 +4,13 @@
 vim.cmd [[packadd packer.nvim]]
 
 return require('packer').startup(function()
-  -- Packer can manage itself
+
+  -- Plugin Manager
+  -- https://github.com/wbthomason/packer.nvim
   use 'wbthomason/packer.nvim'
 
-  -- Telescope fuzzy finder
+  -- Fuzzy Finder
+  -- https://github.com/nvim-telescope/telescope.nvim
   use {
       'nvim-telescope/telescope.nvim',
       requires = {
@@ -15,23 +18,29 @@ return require('packer').startup(function()
       }
   }
 
-  -- Treesitter syntax highlighting
+  -- Syntax
+  -- https://github.com/nvim-treesitter/nvim-treesitter
   use 'nvim-treesitter/nvim-treesitter'
 
-  -- Darcula colorscheme
+  -- Colorscheme
+  -- https://github.com/dracula/vim
   use 'Mofiqul/dracula.nvim'
 
-  -- File tree
+  -- File Explorer
+  -- https://github.com/kyazdani42/nvim-tree.lua
   use {
       'kyazdani42/nvim-tree.lua',
       requires = {
           'kyazdani42/nvim-web-devicons', -- optional, for file icons
       },
   }
-  -- Language Server
+
+  -- LSP
+  -- https://github.com/neovim/nvim-lspconfig
   use 'neovim/nvim-lspconfig'
 
-  -- Autcomplete
+  -- Completion
+  -- https://github.com/hrsh7th/nvim-cmp
   use {
       'hrsh7th/nvim-cmp',
       requires = {
@@ -43,13 +52,13 @@ return require('packer').startup(function()
       }
   }
 
-  -- Git changes
+  -- Git
+  -- https://github.com/lewis6991/gitsigns.nvim
   use {
       'lewis6991/gitsigns.nvim',
       config = function()
           require('gitsigns').setup()
       end
   }
-
 
 end)
