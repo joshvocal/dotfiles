@@ -11,12 +11,12 @@ opt.backup = false -- No backup
 opt.termguicolors = true
 opt.number = true -- Show line number
 opt.showmatch = true -- Highlight matching parenthesis
-opt.colorcolumn = '80' -- Line length marker at 80 columns
 opt.ignorecase = true -- Ignore case letters when search
 opt.smartcase = true -- Ignore lowercase for the whole pattern
 opt.termguicolors = true -- Enable 24-bit RGB colors
 opt.laststatus = 2 -- Set global statusline
 opt.scrolloff = 8 -- Keep 8 lines off the edges of the screen when scrolling
+opt.splitright = false -- Don't split right
 
 -- Tabs, Indent
 opt.expandtab = true -- Use spaces instead of tabs
