@@ -55,13 +55,11 @@ window:
 font:
   size: 13
   normal:
-    family: JetBrains Mono
-
+    family: JetBrainsMono Nerd Font Mono
   bold:
-    family: JetBrains Mono
-
+    family: JetBrainsMono Nerd Font Mono
   italic:
-    family: JetBrains Mono
+    family: JetBrainsMono Nerd Font Mono
 
   use_thin_strokes: true
 
