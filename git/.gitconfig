@@ -3,14 +3,13 @@
     aa = add -A
     br = branch
     brs = branch --sort=-committerdate
-    ca = commit -a --amend
-    cane = commit -a --amend --no-edit
-    cm = commit -m
+    ca = !"git add .; git commit --amend"
+    cane = !"git add .; git commit --amend --no-edit"
+    cm = !"git add .; git commit -m"
     co = checkout
     d = diff
     dc = diff --cached
     l = log --abbrev-commit
-    p = push
     pf = push --force-with-lease
     pl = !"git fetch --all --prune; git pull --rebase origin main"
     ri = rebase -i
