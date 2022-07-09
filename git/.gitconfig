@@ -1,14 +1,36 @@
-[user]
-	name = Josh Vocal
-	email = joshvocal@gmail.com
-[filter "lfs"]
-	clean = git-lfs clean -- %f
-	smudge = git-lfs smudge -- %f
-	process = git-lfs filter-process
-	required = true
-[pull]
-    rebase = true
+[alias]
+    a = add .
+    aa = add -A
+    br = branch
+    brs = branch --sort=-committerdate
+    ca = commit -a --amend
+    cane = commit -a --amend --no-edit
+    cm = commit -m
+    co = checkout
+    d = diff
+    dc = diff --cached
+    l = log --abbrev-commit
+    pf = push --force-with-lease
+    pl = !"git fetch --all --prune; git pull --rebase origin main"
+    ri = rebase -i
+    rh = reset --hard origin/main
+    # View the current working tree status using the short format
+    s = status -s
+    st = stash --include-untracked
+    v = !"gh repo view --web"
+[core]
+    excludesfile = .gitignore_global
 [diff]
     algorithm = patience
-[core]
-	excludesfile = .gitignore_global
+[fetch]
+    prune = true
+[filter "lfs"]
+    clean = git-lfs clean -- %f
+    smudge = git-lfs smudge -- %f
+    process = git-lfs filter-process
+    required = true
+[pull]
+    rebase = true
+[user]
+    name = Josh Vocal
+    email = joshvocal@gmail.com
