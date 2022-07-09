@@ -18,6 +18,9 @@ map('n', '<leader>r', ':so %<CR>', opts)
 -- NvimTree
 map('n', '<C-n>', '<cmd>NvimTreeFindFileToggle<CR>', opts)
 
+-- Telescope
+map('n', '<C-e>', '<cmd>Telescope oldfiles<CR>', opts) -- Find most recent files
+
 -- Use CTRL-(h,j,k,l) to move between windows
 map('n', '<C-h>', '<C-w>h', opts)
 map('n', '<C-j>', '<C-w>j', opts)
