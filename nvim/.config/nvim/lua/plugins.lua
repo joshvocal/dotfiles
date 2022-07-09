@@ -8,6 +8,7 @@ return require('packer').startup(function()
   -- Packer can manage itself
   use 'wbthomason/packer.nvim'
 
+  -- Telescope fuzzy finder
   use {
       'nvim-telescope/telescope.nvim',
       requires = {
@@ -15,8 +16,10 @@ return require('packer').startup(function()
       }
   }
 
+  -- Treesitter syntax highlighting
   use 'nvim-treesitter/nvim-treesitter'
 
+  -- Darcula colorscheme
   use 'Mofiqul/dracula.nvim'
 
 end)
