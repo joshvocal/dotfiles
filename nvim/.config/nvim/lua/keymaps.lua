@@ -6,6 +6,9 @@ vim.g.mapleader = ','
 -- Press jj to ESC
 map('i', 'jj', '<Esc>', opts)
 
+-- Press ; for :
+map('n', ';', ':', opts)
+
 -- Copy to clipboard
 vim.keymap.set({'n', 'x'}, 'cp', '"+y')
 
