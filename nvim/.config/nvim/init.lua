@@ -1,7 +1,12 @@
+-- Package Manager
+require('packer_init')
+
+-- Core
 require('colors')
-require('plugins')
 require('keymaps')
 require('options')
+
+-- Plugins
 require('nvim-treesitter-conf')
 require('nvim-telescope-conf')
 require('nvim-tree-conf')
