@@ -7,6 +7,7 @@
     camne = !"git add .; git commit --amend --no-edit"
     cm = !"git add .; git commit -m"
     co = checkout
+    cl = clone
     d = diff
     dc = diff --cached
     l = log --abbrev-commit
