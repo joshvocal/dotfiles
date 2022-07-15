@@ -1,14 +1,16 @@
-[user]
-	name = Josh Vocal
-	email = joshvocal@gmail.com
 [filter "lfs"]
 	clean = git-lfs clean -- %f
 	smudge = git-lfs smudge -- %f
 	process = git-lfs filter-process
 	required = true
+[user]
+	name = Josh Vocal
+	email = josh.vocal@shopify.com
 [pull]
-    rebase = true
-[diff]
-    algorithm = patience
+	rebase = true
 [core]
-	excludesfile = .gitignore_global
+	excludesfile = /Users/joshvocal/.gitignore_global
+[include]
+	path = /Users/joshvocal/.config/dev/gitconfig
+[fetch]
+	prune = true
