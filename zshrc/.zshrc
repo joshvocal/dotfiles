@@ -9,7 +9,7 @@ alias ....='cd ../../..'
 
 # Python
 alias pip="pip3"
-alias python="/usr/local/bin/python3"
+alias python="/usr/bin/python3"
 alias ptest="python3 -m 'nose'"
 alias p="python3"
 
@@ -20,6 +20,7 @@ alias g="git"
 alias nv="nvim"
 
 # Dotfiles
+alias tmuxup='tmux source-file ~/.tmux.conf'
 alias zshup='source ~/.zshrc'
 alias zedit='vim ~/.zshrc && source ~/.zshrc'
 alias brewup="brew update && brew upgrade && brew cleanup"
