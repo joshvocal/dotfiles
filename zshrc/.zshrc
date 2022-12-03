@@ -19,6 +19,9 @@ alias g="git"
 # Vim
 alias nv="nvim"
 
+# Code
+alias v="code. "
+
 # Dotfiles
 alias tmuxup='tmux source-file ~/.tmux.conf'
 alias zshup='source ~/.zshrc'
