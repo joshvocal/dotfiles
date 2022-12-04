@@ -20,7 +20,7 @@ alias g="git"
 alias nv="nvim"
 
 # Code
-alias v="code. "
+alias v="code ."
 
 # Dotfiles
 alias tmuxup='tmux source-file ~/.tmux.conf'
