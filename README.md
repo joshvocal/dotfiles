@@ -35,6 +35,10 @@ Installing multiple applications
 stow [foo] [bar]
 ```
 
+### Fonts
+
+You need to install Comic Mono [here](https://github.com/dtinth/comic-mono-font)https://github.com/dtinth/comic-mono-font
+
 ## Brew
 Install all of our command-line applications
 
