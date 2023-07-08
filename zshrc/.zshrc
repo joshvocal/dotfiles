@@ -32,5 +32,11 @@ alias brewup="brew update && brew upgrade && brew cleanup"
 alias sim='open -a Simulator'
 alias emu='scrcpy'
 
+# Load rbenv automatically by appending
+# the following to ~/.zshrc:
+
+eval "$(rbenv init - zsh)"
+
 eval "$(starship init zsh)"
 
+eval "$(atuin init zsh)"

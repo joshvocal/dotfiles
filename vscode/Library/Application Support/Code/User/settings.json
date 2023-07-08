@@ -1,24 +1,59 @@
 {
+  "editor.defaultFormatter": null,
+  "editor.formatOnSave": true,
+  "editor.fontFamily": "Comic Mono, Menlo, Monaco, 'Courier New', monospace",
+  "editor.codeActionsOnSave": {
+    "source.fixAll": true,
+    "source.sortMembers": true,
+    "addMissingImports": true,
+    "source.organizeImports": true
+  },
+  "files.autoSave": "afterDelay",
+  "files.associations": {
+    "*.html.erb": "erb"
+  },
+  "files.exclude": {
+    "**/.DS_Store": true,
+    "node_modules/": true
+  },
+  "vim.insertModeKeyBindings": [
+    {
+      "before": ["j", "j"],
+      "after": ["<Esc>"]
+    }
+  ],
+  "workbench.colorTheme": "Darcula",
+  "workbench.editor.enablePreview": false,
+  "[html]": {},
+  "[typescript]": {
     "editor.formatOnSave": true,
-    "editor.lineNumbers": "relative",
-    "editor.fontFamily": "JetBrains Mono, Menlo, Monaco, 'Courier New', monospace",
-    "editor.codeActionsOnSave": {
-      "source.fixAll": true,
-      "addMissingImports": true
-    },
-    "files.autoSave": "afterDelay",
-    "files.exclude": {
-      "**/.DS_Store": true,
-      "node_modules/": true
-    },
-    "vim.insertModeKeyBindings": [
-      {
-        "before": ["j", "j"],
-        "after": ["<Esc>"]
-      }
-    ],
-    "workbench.colorTheme": "Darcula",
-    "workbench.editor.enablePreview": false,
-    "workbench.sideBar.location": "right",
-  }
-  
+    "editor.defaultFormatter": "vscode.typescript-language-features",
+    "editor.tabSize": 2,
+    "editor.insertSpaces": true,
+    "editor.detectIndentation": true
+  },
+  "[typescriptreact]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "vscode.typescript-language-features",
+    "editor.tabSize": 2,
+    "editor.insertSpaces": true,
+    "editor.detectIndentation": true
+  },
+  "[python]": {
+    "editor.formatOnType": true
+  },
+  "editor.fontLigatures": true,
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "prettier.trailingComma": "all",
+  "prettier.singleQuote": true,
+  "prettier.singleAttributePerLine": true,
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[prisma]": {
+    "editor.defaultFormatter": "Prisma.prisma"
+  },
+  "editor.fontSize": 14
+}
