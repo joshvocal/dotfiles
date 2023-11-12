@@ -1,0 +1,44 @@
+{
+  "telemetry.telemetryLevel": "off",
+
+  "vim.insertModeKeyBindings": [
+    {
+      "before": ["j", "j"],
+      "after": ["<Esc>"]
+    }
+  ],
+
+  "files.exclude": {
+    "**/.DS_Store": true,
+    "**/node_modules/": true,
+    "**/package-lock.json": true,
+    "**/yarn.lock": true,
+    "**/dist/**": true,
+    "**/.git": true,
+    "**/.vscode": true
+  },
+
+  "editor.lineHeight": 22,
+  "editor.inlineSuggest.enabled": true,
+  "editor.formatOnPaste": true,
+  "editor.fontFamily": "'Monaspace Neon', monospace",
+  "editor.fontLigatures": "'ss01', 'ss03', 'ss04', 'ss06', 'ss07', 'calt'",
+  "editor.fontWeight": 400,
+  "editor.fontSize": 14,
+  "editor.renderWhitespace": "all",
+  "editor.accessibilitySupport": "off",
+  "editor.codeLens": false,
+  "editor.copyWithSyntaxHighlighting": false,
+  "editor.emptySelectionClipboard": false,
+
+  "workbench.settings.editor": "json",
+  "workbench.colorTheme": "Darcula",
+  "workbench.list.smoothScrolling": true,
+  "workbench.fontAliasing": "antialiased",
+  "workbench.tips.enabled": false,
+  "workbench.startupEditor": "none",
+
+  "window.zoomLevel": 0,
+  "workbench.preferredDarkColorTheme": "Darcula",
+  "workbench.preferredHighContrastColorTheme": "Darcula"
+}
