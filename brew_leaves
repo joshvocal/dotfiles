@@ -21,6 +21,7 @@ elixir
 enchant
 exiftool
 ffmpeg@4
+font-monaspace
 fzf
 fzy
 gatsby-cli
