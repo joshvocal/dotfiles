@@ -45,6 +45,9 @@ inoremap jj <Esc>
 nnoremap ; :
 nnoremap <leader>; ;
 
+"Clear highlighting after search
+nnoremap <C-L> :nohls<cr><C-L>
+
 "In vim, pressing ff runs the python script"
 map ff:w<CR>:!clear;python3 %<CR>
 

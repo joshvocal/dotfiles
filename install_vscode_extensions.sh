@@ -1,3 +1,8 @@
 #!/bin/bash
 
-xargs code --install-extension < vscode_extensions
+while read -r extension; do
+  echo "Installing $extension"
+  code --install-extension "$extension" --force
+done < vscode_extensions
+
+echo "Finished installing extensions. 🎉"

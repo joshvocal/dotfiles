@@ -1,5 +1,4 @@
 [alias]
-    rb = "!f() { git rebase -i HEAD~$1; }; f"
     a = add .
     aa = add -A
     br = branch
@@ -16,13 +15,14 @@
     p = pull
     pf = push --force-with-lease
     pre = !"git fetch --all --prune; git pull --rebase origin main"
+    rb = "!f() { git rebase -i HEAD~$1; }; f"
     ri = rebase -i
     rh = reset --hard origin/main
     s = status
     st = stash --include-untracked
     v = !"gh repo view --web"
 [core]
-	excludesfile = /Users/joshvocal/.gitignore_global
+	excludesfile = .gitignore_global
 [fetch]
 	prune = true
 [filter "lfs"]
