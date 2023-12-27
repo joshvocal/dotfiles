@@ -3,35 +3,35 @@
     aa = add -A
     br = branch
     brs = branch --sort=-committerdate
-    cam = !"git add .; git commit --amend --no-edit"
+    ame = !"git add .; git commit --amend --no-edit"
     cm = !"git add .; git commit -m"
     co = checkout
-    cl = clone
+    cob = !"checkout -b"
+    c = clone
     d = diff
     dc = diff --cached
     l = log --abbrev-commit
-    p = push
+    lb = !git reflog show --pretty=format:'%gs ~ %gd' --date=relative | grep 'checkout:' | grep -oE '[^ ]+ ~ .*' | awk -F~ '!seen[$1]++' | head -n 10 | awk -F' ~ HEAD@{' '{printf(\"  \\033[33m%s: \\033[37m %s\\033[0m\\n\", substr($2, 1, length($2)-1), $1)}'
+    p = pull
     pf = push --force-with-lease
-    pl = !"git fetch --all --prune; git pull --rebase origin main"
+    pre = !"git fetch --all --prune; git pull --rebase origin main"
+    rb = "!f() { git rebase -i HEAD~$1; }; f"
     ri = rebase -i
     rh = reset --hard origin/main
-    # View the current working tree status using the short format
-    s = status -s
+    s = status
     st = stash --include-untracked
     v = !"gh repo view --web"
 [core]
-    excludesfile = .gitignore_global
-[diff]
-    algorithm = patience
+	excludesfile = .gitignore_global
 [fetch]
-    prune = true
+	prune = true
 [filter "lfs"]
-    clean = git-lfs clean -- %f
-    smudge = git-lfs smudge -- %f
-    process = git-lfs filter-process
-    required = true
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
 [pull]
-    rebase = true
+	rebase = true
 [user]
-    name = Josh Vocal
-    email = joshvocal@gmail.com
+	name = Josh Vocal
+	email = joshvocal@shopify.com
