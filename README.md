@@ -6,6 +6,12 @@ My personalized tools managed with [GNU Stow](https://www.gnu.org/software/stow/
   <img src="https://github.com/joshvocal/dotfiles/blob/main/.github/images/preview.png" width=600>
 </div>
 
+## Updates
+
+### 2024
+
+* **Dec:** Most of the work flow is going to be using VSCode with vim keybindings, tmux and fish. VSCode has the majority of all LSPs that I need and you can use it to SSH into other comptuers. Ditching starship because the defaults of fish shell are good enough.
+
 ## Requirements
 
 - [Install Homebrew](https://brew.sh)
