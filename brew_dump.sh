@@ -1,4 +1,5 @@
 #!/bin/bash
 
-brew leaves > brew_leaves
-brew list --cask > brew_casks
+echo "Dumping Brewfile. Remove the current Brewfile if you want to update."
+brew bundle dum
+echo "Done 🎉"
