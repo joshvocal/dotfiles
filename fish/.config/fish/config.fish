@@ -2,6 +2,9 @@ if status is-interactive
     # Commands to run in interactive sessions can go here
 end
 
+# Empty greeting message
+set -g fish_greeting
+
 # Terminal
 alias ls='ls -G'
 alias ll='ls -l -G'
@@ -13,7 +16,7 @@ alias gs='g s'
 
 # Dotfiles
 alias brewup="brew update && brew upgrade && brew cleanup"
-alias stmux='tmux source-file ~/.tmux.conf'
+alias tmuxup='tmux source-file ~/.tmux.conf'
 
 # Git
 alias g="git"
