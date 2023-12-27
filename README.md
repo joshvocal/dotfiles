@@ -8,9 +8,8 @@ My personalized tools managed with [GNU Stow](https://www.gnu.org/software/stow/
 
 ## Requirements
 
-* [Install Homebrew](https://brew.sh)
-* [GNU Stow](https://www.gnu.org/software/stow/)
-
+- [Install Homebrew](https://brew.sh)
+- [GNU Stow](https://www.gnu.org/software/stow/)
 
 Clone repo in your home directory
 
@@ -20,6 +19,9 @@ cd dotfiles
 ```
 
 ## Installing
+
+> [!IMPORTANT]
+> You need to install this in your `$HOME` directory.
 
 GNU Stow creates a symbolic link in the same structure as each of the folders and creates the dotfiles.
 
@@ -35,31 +37,10 @@ Installing multiple applications
 stow [foo] [bar]
 ```
 
-### Fonts
-
-You need to install Comic Mono [here](https://github.com/dtinth/comic-mono-font)https://github.com/dtinth/comic-mono-font
-
 ## Brew
-Install all of our command-line applications
+
+Install all of our command-line and GUI applications
 
 ```
-xargs brew install < brew_leaves
+./install_brewfile.sh
 ```
-
-## Cask
-
-Install all of our graphical applications
-
-```
-xargs brew install --cask < brew_casks
-```
-
-## Updating Brew/Cask List
-
-```
-./brew_dump.sh
-```
-
-### Future
-
-* Look into [Nix](https://github.com/NixOS/nix) as a replacement to brew
