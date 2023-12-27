@@ -1,36 +1,42 @@
 filetype on
 syntax on
 
-"""Options
-
-"General
-set mouse=a "Enable mouse support
-set clipboard=unnamedplus "Copy/paste to system clipboard
-set noswapfile "Don't use swapfile
-set nobackup "No backup
-
-"Vim UI
-set number "Show line number
-set showmatch "Highlight matching parenthesis
-set ignorecase "Ignore lowercase letters when search
-set smartcase "Ignore lowercase for the whole pattern
-set termguicolors "Enable 24-bit RGB colors
-set laststatus=2 "Set global statusline
-set scrolloff=8 "Keeps 8 lines off the edges fo the screen when scrolling
+"Editing behaviour
+set showmode "show what mode you're currently editing in
+set autoindent "always set autoindenting on
+set cindent "indents for programing in c
+set number "allows number lines
+set norelativenumber " no relative numbers
+set ruler
 set hlsearch 
+set shiftwidth=4
+set tabstop=4 "a tab is four spaces
 
-" Tabs, Indent
-set expandtab "Use spaces intead of tabs
-set shiftwidth=4 "Shift 4 spaces when tab
-set tabstop=4 "1 tab == 4 spaces
-set smartindent
+"when hitting backspace, pretend like a tab is removed, even if spaces
+set softtabstop=4
+set expandtab "always use spaces instead of tab characters
+set shiftround "use multiple of shiftwidth when indenting with '<' and '>'
+set scrolloff=8 "keeps 8 lines off the edges fo the screen when scrolling
 
-" Memory, System
-set visualbell "Don't beep
-set noerrorbells "Don't beep
+"Editor layout
+set laststatus=2 "always put a status line in
+set cmdheight=2 "use a status bar that is 2 rows high
+set background=dark "sets the background dark
+set noswapfile
+set nobackup
+set nowrap " no wrapping
+set wildmenu
+set wildmode=list:full
+set title "change terminal's title to the current directory
+
+set visualbell "don't beep
+set noerrorbells "don't beep
+set incsearch "incremental search
 set hidden
 
-"""Keymaps
+set signcolumn=yes
+
+"Shortcuts
 
 "Remap 'jj' to <Esc>
 inoremap jj <Esc>
@@ -39,3 +45,8 @@ inoremap jj <Esc>
 nnoremap ; :
 nnoremap <leader>; ;
 
+"Clear highlighting after search
+nnoremap <C-L> :nohls<cr><C-L>
+
+"In vim, pressing ff runs the python script"
+map ff:w<CR>:!clear;python3 %<CR>
