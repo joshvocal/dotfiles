@@ -23,6 +23,7 @@
     v = !"gh repo view --web"
 [core]
 	excludesfile = .gitignore_global
+	editor = vim
 [fetch]
 	prune = true
 [filter "lfs"]
