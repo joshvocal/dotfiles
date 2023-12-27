@@ -6,9 +6,6 @@ end
 set -g fish_greeting
 
 # Terminal
-alias ls='ls -G'
-alias ll='ls -l -G'
-alias lla='ls -la -G'
 alias h='history'
 alias ..='cd ..'
 alias ...='cd ../..'
