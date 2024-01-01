@@ -14,7 +14,7 @@
     "when": "accessibilityHelpIsShown"
   },
   {
-    "key": "ctrl+k j",
+    "key": "ctrl+k k",
     "command": "workbench.action.terminal.toggleTerminal",
     "when": "terminal.active"
   },

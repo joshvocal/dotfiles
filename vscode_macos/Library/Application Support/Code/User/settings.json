@@ -3,6 +3,8 @@
 
   "update.showReleaseNotes": false,
 
+  "editor.formatOnSave": true,
+
   "git.mergeEditor": true,
 
   "vim.insertModeKeyBindings": [
@@ -32,7 +34,7 @@
   "editor.fontFamily": "'Monaspace Neon', monospace",
   "editor.fontLigatures": "'ss01', 'ss03', 'ss06', 'calt'",
   "editor.fontWeight": 400,
-  "editor.fontSize": 14,
+  "editor.fontSize": 16,
   "editor.renderWhitespace": "trailing",
   "editor.accessibilitySupport": "off",
   "editor.codeLens": false,
@@ -89,5 +91,5 @@
     "terminal.ansiRed": "#B16139",
     "terminal.ansiWhite": "#87928A",
     "terminal.ansiYellow": "#A07E3B"
-  }
-}
+  },
+ }
