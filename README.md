@@ -45,7 +45,7 @@ stow [foo] [bar]
 
 ## Brew
 
-Install all of our command-line and GUI applications
+Install all of your command-line and GUI applications
 
 ```
 ./install_brewfile.sh
