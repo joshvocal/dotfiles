@@ -22,3 +22,5 @@ alias g="git"
 #set PATH $PATH /Users/joshvocal/.local/bin
 #set -x GOPATH /Users/joshvocal/go
 #set -x GO111MODULE on
+
+source (command -v poetry >/dev/null; and poetry completions fish | psub) 2>/dev/null
