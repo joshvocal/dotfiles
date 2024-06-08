@@ -29,7 +29,6 @@
   },
 
   "editor.lineHeight": 22,
-  "editor.inlineSuggest.enabled": true,
   "editor.formatOnPaste": true,
   "editor.fontFamily": "'Monaspace Neon', monospace",
   "editor.fontLigatures": "'ss01', 'ss03', 'ss06', 'calt'",
@@ -46,10 +45,13 @@
   "editor.minimap.autohide": true,
 
   "window.commandCenter": false,
+
+  "zenMode.centerLayout": true,
+  "zenMode.restore": true,
   
   "workbench.activityBar.location": "top",
   "workbench.settings.editor": "json",
-  "workbench.colorTheme": "Darcula",
+  "workbench.colorTheme": "Jet dark",
   "workbench.list.smoothScrolling": true,
   "workbench.fontAliasing": "antialiased",
   "workbench.tips.enabled": false,
