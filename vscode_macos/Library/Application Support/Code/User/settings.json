@@ -34,7 +34,7 @@
   "editor.fontFamily": "'Monaspace Neon', monospace",
   "editor.fontLigatures": "'ss01', 'ss03', 'ss06', 'calt'",
   "editor.fontWeight": 400,
-  "editor.fontSize": 16,
+  "editor.fontSize": 14,
   "editor.renderWhitespace": "trailing",
   "editor.accessibilitySupport": "off",
   "editor.codeLens": false,
@@ -42,7 +42,12 @@
   "editor.emptySelectionClipboard": false,
   "editor.rulers": [80],
   "editor.scrollBeyondLastLine": false,
+  "editor.cursorBlinking": "phase",
+  "editor.minimap.autohide": true,
 
+  "window.commandCenter": false,
+  
+  "workbench.activityBar.location": "top",
   "workbench.settings.editor": "json",
   "workbench.colorTheme": "Darcula",
   "workbench.list.smoothScrolling": true,
@@ -91,5 +96,5 @@
     "terminal.ansiRed": "#B16139",
     "terminal.ansiWhite": "#87928A",
     "terminal.ansiYellow": "#A07E3B"
-  },
- }
+  }
+}
