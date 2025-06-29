@@ -1,24 +1,25 @@
 {
   "telemetry.telemetryLevel": "off",
-
   "update.showReleaseNotes": false,
-
   "editor.formatOnSave": true,
-
   "git.mergeEditor": true,
-
+  "remote.SSH.useLocalServer": false,
+  "explorer.autoReveal": true,
   "vim.insertModeKeyBindings": [
     {
-      "before": ["j", "j"],
-      "after": ["<Esc>"]
+      "before": [
+        "j",
+        "j"
+      ],
+      "after": [
+        "<Esc>"
+      ]
     }
   ],
-
   // For Linux, find shortcut
   "vim.handleKeys": {
     "<C-f>": false
   },
-
   "files.exclude": {
     "**/.DS_Store": true,
     "**/node_modules/": true,
@@ -27,7 +28,6 @@
     "**/dist/**": true,
     "**/.git": true
   },
-
   "editor.lineHeight": 22,
   "editor.formatOnPaste": true,
   "editor.fontFamily": "'Monaspace Neon', monospace",
@@ -39,17 +39,15 @@
   "editor.codeLens": false,
   "editor.copyWithSyntaxHighlighting": false,
   "editor.emptySelectionClipboard": false,
-  "editor.rulers": [80],
+  "editor.rulers": [
+    80
+  ],
   "editor.scrollBeyondLastLine": false,
   "editor.cursorBlinking": "phase",
   "editor.minimap.autohide": true,
-
   "window.commandCenter": false,
-
   "zenMode.centerLayout": true,
   "zenMode.restore": true,
-  
-  "workbench.activityBar.location": "top",
   "workbench.settings.editor": "json",
   "workbench.colorTheme": "Jet dark",
   "workbench.list.smoothScrolling": true,
@@ -61,7 +59,6 @@
   "workbench.statusBar.visible": false, // Hide status bar
   "workbench.editor.showTabs": "single", // Hide tabs
   "workbench.tree.renderIndentGuides": "onHover",
-
   // https://code.visualstudio.com/docs/terminal/appearance
   "terminal.integrated.fontFamily": "'Monaspace Neon', monospace",
   "terminal.integrated.fontSize": 14,
@@ -71,12 +68,10 @@
   "terminal.integrated.cursorBlinking": true,
   "terminal.integrated.cursorStyleInactive": "underline",
   "terminal.integrated.gpuAcceleration": "on",
-
   // https://glitchbone.github.io/vscode-base16-term/#/atelier-savanna
   "workbench.colorCustomizations": {
     // Ruler
     "editorRuler.foreground": "#ffffff10",
-
     // Theme
     "terminal.background": "#171C19",
     "terminal.foreground": "#87928A",
@@ -98,5 +93,9 @@
     "terminal.ansiRed": "#B16139",
     "terminal.ansiWhite": "#87928A",
     "terminal.ansiYellow": "#A07E3B"
+  },
+  "remote.SSH.remotePlatform": {
+    "192.168.1.84": "linux",
+    "server": "linux"
   }
 }

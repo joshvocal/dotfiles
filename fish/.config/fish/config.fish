@@ -17,10 +17,3 @@ alias tmuxup='tmux source-file ~/.tmux.conf'
 
 # Git
 alias g="git"
-
-# Created by `pipx` on 2023-12-28 16:20:50
-#set PATH $PATH /Users/joshvocal/.local/bin
-#set -x GOPATH /Users/joshvocal/go
-#set -x GO111MODULE on
-
-source (command -v poetry >/dev/null; and poetry completions fish | psub) 2>/dev/null
