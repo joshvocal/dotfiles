@@ -17,3 +17,6 @@ alias tmuxup='tmux source-file ~/.tmux.conf'
 
 # Git
 alias g="git"
+
+# OpenClaw Completion
+source "/Users/joshvocal/.openclaw/completions/openclaw.fish"
