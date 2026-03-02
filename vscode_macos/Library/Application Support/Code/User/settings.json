@@ -31,11 +31,7 @@
   "workbench.tips.enabled": false,
   "workbench.activityBar.location": "top",
   "workbench.editor.centeredLayoutAutoActivate": true,
-
-  // Zen Mode
-  "zenMode.centerLayout": true,
-  "zenMode.restore": true,
-
+  
   // Window
   "window.commandCenter": false,
 
